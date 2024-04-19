@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojonary</title>
+</head>
+<body>
+    <div class="busqueda">
+        <h1>Dojonary</h1>
+        <input id="buscar" placeholder="Search">
+        <button class="btnLogin" onclick="cambiarTexto(this)">Login</button>
+    </div>
+    <main class="container">
+        <div class="Main-1">
+            <div class="conten-1">
+                <div class="sub-conten-1">
+                    <h2>ninja</h2>
+                    <p id="noun">noun<p>
+                    <p>plural: ninjas</p> 
+                    <button class="btn13Like" onclick="alertaMeGusta()"> 13 likes</button>
+                </div>
+                <div class="sub-conten-2">
+                    <p id="car-1">A practitioner skilled in the 
+                        <a href="#">Japense</a> ar of <a href="#">injutsu</a>
+                    </p>
+                </div>
+            </div>
+            <div class="conten-2">
+                <div class="sub-conten-2-1">
+                    <h2>ninja</h2>
+                    <p id="noun-2">noun<p>
+                    <p>plural: ninjas</p>
+                    <button class="btn35Like"> 35 likes</button> 
+                </div>
+                <div class="sub-conten-2-2">
+                    <p id="car-2">A  <a href="#">programmer</a> who breaks    
+                            down problems wiht <a href="#">zen</a>-like focus
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="Main-2">
+            <div class="content-main2">
+                <p id="car-main2"> Dojonary is </p>
+                <p id="car-main2"> defined by YOU</p>
+                <button class="btnAdd" onclick="removerBoton(this)"> Add Definition</button>
+            </div>
+        </div>
+        <script src="./script.js"></script>
+    </main>
+</body>
+</html>
